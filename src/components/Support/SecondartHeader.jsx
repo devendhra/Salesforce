@@ -70,8 +70,9 @@ function SecondaryHeader() {
                 </header>
 
                 {/* <!-- Mobile Nav Menu --> */}
+                {isMenuOpen && (
                 <div id="secondary-mobile-menu"
-                    className="xl:hidden hidden absolute left-0 shadow-lg w-full h-fit bg-white z-40 pb-12  px-6 pr-4 space-y-2 text-[20px] text-brand-dark font-bold">
+                    className="xl:hidden  absolute left-0 shadow-lg w-full h-fit bg-white z-40 pb-12  px-6 pr-4 space-y-2 text-[20px] text-brand-dark font-bold">
                     <nav className="">
                         <Link to="/service"
                             className="flex py-2 mt-3 text-base justify-between md:justify-normal font-semibold hover:text-brand-light">
@@ -90,6 +91,7 @@ function SecondaryHeader() {
                         </Link>
                     </nav>
                 </div>
+                )}
             </header>
             {/* <!-- Banner  --> */}
             <section id="banner">
