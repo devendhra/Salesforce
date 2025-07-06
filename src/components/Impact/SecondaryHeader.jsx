@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function SecondaryHeader() {
     const secondaryHeaderRef = useRef(null);
     const secondaryDeskNavRef = useRef(null);
-    const icon2Ref = useRef(null); // optional, if used
+    const icon2Ref = useRef(null); 
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 

@@ -46,9 +46,9 @@ function SecondryHeader() {
     return (
         <>
             {/* // < !--Header - 2  -- > */}
-            <header id="secondary-header" ref={secondaryHeaderRef} className="mt-[56px] xl:mt-[72px] transition-all duration-300 z-40 w-full bg-white shadow-md xl1440:shadow-none
-                                        xl:pt-2 xl:sticky">
-                <div className="flex xl:hidden justify-between items-center px-6 py-1 max-w-screen-xl mx-auto">
+            <header id="secondary-header" ref={secondaryHeaderRef} className="mt-[56px] xl:mt-[72px] transition-all duration-300 z-60 w-full bg-white shadow-md xl1440:shadow-none
+                                        xl:pt-2     ">
+                <div className="flex xl:hidden justify-between items-center px-6 py-1 max-w-screen-xl mx-auto z-60">
                     <div className="flex">
                         <Link id="logo-2" to="/" className="hidden mr-4 md:ml-2">
                             <img src="https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-no-type-logo.svg"

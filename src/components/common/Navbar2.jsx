@@ -42,7 +42,7 @@ function Navbar2() {
                             <img src="https://a.sfdcstatic.com/shared/images/c360-nav/icons.svg#search-blue"
                                 className="size-[18px]" alt="salesforce"/>
                         </Link>
-                        <Link to="/"
+                        <Link to="/login"
                             className="flex justify-center items-center mr-2 gap-1 px-3 py-2 md:pr-6 hover:bg-sky-100 hover:text-blue-700 rounded-3xl">
                             <img src="https://a.sfdcstatic.com/shared/images/c360-nav/icons.svg#user-blue"
                                 className="h-[18px] w-[18px] font-bold" alt="salesforce"/>
@@ -80,7 +80,7 @@ function Navbar2() {
                         <Link to="/" className="px-3 py-2 hover:bg-sky-100 hover:text-blue-700 rounded-full"><img
                             src="https://a.sfdcstatic.com/shared/images/c360-nav/icons.svg#globe-blue"
                             className="h-[18px] w-[18px]" alt="salesforce"/></Link>
-                        <Link to="Login.html"
+                        <Link to="/login"
                             className="flex justify-center items-center gap-1 px-3 py-2 hover:bg-sky-100 hover:text-blue-700 rounded-3xl">
                             <img src="https://a.sfdcstatic.com/shared/images/c360-nav/icons.svg#user-blue"
                                 className="h-[18px] w-[18px]" alt="salesforce"/>

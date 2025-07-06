@@ -4,6 +4,7 @@ import Products from './pages/Products.jsx';
 import Industries from './pages/Industries.jsx';
 import Support from './pages/Support.jsx';
 import Impact from './pages/Impact.jsx';
+import Logincomp from './components/Login/Logincomp.jsx';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/industries" element={<Industries />} />
         <Route path="/support" element={<Support />} />
         <Route path="/impact" element={<Impact />} />
+        <Route path="/login" element={<Logincomp />} />
     </Routes>
   )
 }
